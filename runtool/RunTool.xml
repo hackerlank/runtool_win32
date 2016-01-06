@@ -1,0 +1,30 @@
+<config>
+    <useconfig>浴火</useconfig>
+    <config name="天神">
+        <url>http://172.16.1.100:5360/token.php?s=1</url>
+        <workdir>E:\Mir2WebServer</workdir>
+        <button name="StartAll2" id="0">1_startNoGameSvr.bat</button>
+        <button name="KillAll" id="1">1_KillServer.bat</button>
+        <button name="CopyDel" id="2">2_delcopy.bat</button>
+        <button name="DelLog" id="3">E:\DelLog.bat</button>
+        <button name="302" id="4">cmd /c start mir2web_gamesvr302.exe</button>
+        <button name="303" id="5">cmd /c start mir2web_gamesvr303.exe</button>
+        <button name="304" id="6">cmd /c start mir2web_gamesvr304.exe</button>
+    </config>
+    <config name="时代">
+        <url>http://172.16.1.100:5360/token.php?s=1</url>
+        <workdir>E:\</workdir>
+        <button name="StartAll1" id="0">1_startNoGameSvr.bat</button>
+        <button name="KillAll" id="1">1_KillServer.bat</button>
+        <button name="CopyDel" id="2">2_delcopy.bat</button>
+        <button name="DelLog" id="3">E:\DelLog.bat</button>
+    </config>
+    <config name="浴火">
+        <url>http://172.16.1.100:5360/token.php?s=1</url>
+        <workdir>E:\wzcqserver</workdir>
+        <button name="StartAll3" id="0">1_startNoGameSvr.bat</button>
+        <button name="KillAll" id="1">1_KillServer.bat</button>
+        <button name="CopyDel" id="2">2_delcopy.bat</button>
+        <button name="DelLog" id="3">E:\DelLog.bat</button>
+    </config>
+</config>
